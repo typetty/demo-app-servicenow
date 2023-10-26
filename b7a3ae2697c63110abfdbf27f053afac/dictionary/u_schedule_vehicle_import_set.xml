@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ade25e2097f72110abfdbf27f053af49" extends="sys_import_set_row" label="Schedule Vehicle Import Set" max_length="40" name="u_schedule_vehicle_import_set" type="collection"/>
+</database>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>u_service_vehicle</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Incident for each Service Vehicle</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var request = new sn_ws.RESTMessageV2();
+	request.setMIDServer('Ty MID New');
+
+    //Set parameters for the REST Message
+    request.setEndpoint("https://dev170240.service-now.com/api/now/table/incident");
+    request.setHttpMethod('POST');
+    request.setAuthenticationProfile('basic', 'c6abd76b97003110abfdbf27f053af2e');
+
+    var caller = 'David Loo';
+    if (current.u_operator) {
+        caller = current.u_operator;
+    }
+
+    request.setRequestHeader('Accept', 'application/json');
+    request.setRequestHeader('Content-Type', 'application/json');
+    request.setRequestBody("{\"short_description\":\"Enroll Vehicle " + current.name + " into insurance program\",\"caller_id\":\"" + caller + "\",\"correlation_id\":\"" + current.sys_id + "\",\"correlation_display\":\"Forest Service Vehicle Integration\"}");
+    var response = request.execute();
+    var result = response.getBody();
+    var jResult = JSON.parse(result);
+
+    //Bring info from the incident record back to the 
+    current.correlation_id = jResult.result.sys_id;
+    current.u_correlation_display = 'dev170240 Integration';
+    current.u_comments = 'An incident report has been created in "dev170240 Instance" for this service vehicle. Incident Number: ' + jResult.result.number;
+    current.update();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 14:09:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7bd207fb974c3110abfdbf27f053af25</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Create Incident for each Service Vehicle</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>sys_script_7bd207fb974c3110abfdbf27f053af25</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 00:49:43</sys_updated_on>
+        <template/>
+        <when>async_always</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=7bd207fb974c3110abfdbf27f053af25"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</claim_owner_scope>
+        <claim_timestamp>18b697567410000001</claim_timestamp>
+        <metadata_update_name>sys_script_7bd207fb974c3110abfdbf27f053af25</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Demo Application</previous_claim_name>
+        <previous_claim_scope>b7a3ae2697c63110abfdbf27f053afac</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 00:49:43</sys_created_on>
+        <sys_id>8075a2ae978a3110abfdbf27f053afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 00:49:43</sys_updated_on>
+    </sys_claim>
+</record_update>

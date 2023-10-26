@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Service Vehicle</name>
+        <order>100</order>
+        <roles>u_service_vehicle_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-28 20:12:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4c074d897372110abfdbf27f053af8b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Service Vehicle</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>sys_app_application_c4c074d897372110abfdbf27f053af8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:00:08</sys_updated_on>
+        <title>Service Vehicle</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</claim_owner_scope>
+        <claim_timestamp>18b697ef1350000001</claim_timestamp>
+        <metadata_update_name>sys_app_application_c4c074d897372110abfdbf27f053af8b</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Demo Application</previous_claim_name>
+        <previous_claim_scope>b7a3ae2697c63110abfdbf27f053afac</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 01:00:08</sys_created_on>
+        <sys_id>30d76a2297ca3110abfdbf27f053afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:00:08</sys_updated_on>
+    </sys_claim>
+</record_update>

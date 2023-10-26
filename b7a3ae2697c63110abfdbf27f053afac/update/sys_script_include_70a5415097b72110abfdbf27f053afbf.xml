@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.CustomLogger</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>A custom logger class</description>
+        <name>CustomLogger</name>
+        <script><![CDATA[var CustomLogger = Class.create();
+CustomLogger.prototype = {
+    initialize: function() {
+		this.setSource('Custom Logger');
+		this.setDebug(true);
+	},
+	
+	setSource: function(source) {
+		//sets the source for the logger so that all log statements use this source value.  By default this value should be “Custom Logger”
+		this.source = source;
+	},
+	
+	setDebug: function(verbose) {
+		//sets debug logging for this class on or off -- boolean true/false.  Set this to “true” by default.
+		this.verbose = verbose;
+	},
+	
+	log: function(msg) {
+		//writes a statement to the log file with the source set on the class
+		gs.log(msg, this.source);
+	},
+	
+	logDebug: function(msg) {
+		//if debug mode is turned on, it will log the msg to the system log with the source that is set on the class
+		if (this.verbose) {
+			this.log(msg);
+		}
+	},
+
+    type: 'CustomLogger'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-28 22:18:53</sys_created_on>
+        <sys_id>70a5415097b72110abfdbf27f053afbf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CustomLogger</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>sys_script_include_70a5415097b72110abfdbf27f053afbf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 00:53:01</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</claim_owner_scope>
+        <claim_timestamp>18b69786c410000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_70a5415097b72110abfdbf27f053afbf</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Demo Application</previous_claim_name>
+        <previous_claim_scope>b7a3ae2697c63110abfdbf27f053afac</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 00:53:01</sys_created_on>
+        <sys_id>9836eeae978a3110abfdbf27f053af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 00:53:01</sys_updated_on>
+    </sys_claim>
+</record_update>

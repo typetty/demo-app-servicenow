@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="What size do you need?">94cf5199975cb110abfdbf27f053af30</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 22:45:34</sys_created_on>
+        <sys_id>04506999975cb110abfdbf27f053afcb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>5x5</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>question_choice_04506999975cb110abfdbf27f053afcb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:17:38</sys_updated_on>
+        <text>5x5</text>
+        <value>5x5</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=04506999975cb110abfdbf27f053afcb"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</claim_owner_scope>
+        <claim_timestamp>18b698ef70b0000001</claim_timestamp>
+        <metadata_update_name>question_choice_04506999975cb110abfdbf27f053afcb</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Demo Application</previous_claim_name>
+        <previous_claim_scope>b7a3ae2697c63110abfdbf27f053afac</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 01:17:38</sys_created_on>
+        <sys_id>c9db6a2697ca3110abfdbf27f053afc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:17:38</sys_updated_on>
+    </sys_claim>
+</record_update>

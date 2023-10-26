@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Custom Logger 2 Category">32ae75ac97772110abfdbf27f053af3f</category>
+        <order>200</order>
+        <property display_value="com.snc.customlogger2.verbose" name="com.snc.customlogger2.verbose">3257dca097332110abfdbf27f053afc3</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-29 20:42:11</sys_created_on>
+        <sys_id>a7210a2097b72110abfdbf27f053af9c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>com.snc.customlogger2.verbose.Custom Logger 2 Category</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_a7210a2097b72110abfdbf27f053af9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 00:53:02</sys_updated_on>
+    </sys_properties_category_m2m>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</claim_owner_scope>
+        <claim_timestamp>18b69786e050000001</claim_timestamp>
+        <metadata_update_name>sys_properties_category_m2m_a7210a2097b72110abfdbf27f053af9c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Demo Application</previous_claim_name>
+        <previous_claim_scope>b7a3ae2697c63110abfdbf27f053afac</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 00:53:02</sys_created_on>
+        <sys_id>e836eeae978a3110abfdbf27f053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 00:53:02</sys_updated_on>
+    </sys_claim>
+</record_update>

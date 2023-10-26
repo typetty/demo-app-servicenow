@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>UI page to do simple calculations</description>
+        <direct>false</direct>
+        <endpoint/>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<form>
+		<input type='text' id='number1'/> + <input type='text' id='number2'/> = <input type='button' value='calculate' onclick='calculateIt();'/>
+		<div style='font-size:3em; text-align: left;' id='answer'>
+		</div>
+	</form>
+	
+	<script type='text/javascript'>
+		
+		function calculateIt() {
+			number1 = parseInt(document.getElementById('number1').value);
+			number2 = parseInt(document.getElementById('number2').value);
+			document.getElementById('answer').innerHTML=((number1) + (number2));
+		}
+	</script>
+</j:jelly>]]></html>
+        <name>Calculate</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-31 20:16:15</sys_created_on>
+        <sys_id>6d6b26b697103110abfdbf27f053af24</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Calculate</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>sys_ui_page_6d6b26b697103110abfdbf27f053af24</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:25:42</sys_updated_on>
+    </sys_ui_page>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</claim_owner_scope>
+        <claim_timestamp>18b699659450000001</claim_timestamp>
+        <metadata_update_name>sys_ui_page_6d6b26b697103110abfdbf27f053af24</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Demo Application</previous_claim_name>
+        <previous_claim_scope>b7a3ae2697c63110abfdbf27f053afac</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 01:25:42</sys_created_on>
+        <sys_id>17ada66697ca3110abfdbf27f053af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:25:42</sys_updated_on>
+    </sys_claim>
+</record_update>
