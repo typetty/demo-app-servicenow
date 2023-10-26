@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="My Instance ServiceNow">68d82fe397403110abfdbf27f053afab</basic_auth_profile>
+        <basic_auth_user/>
+        <description>Generates 20 service vehicles</description>
+        <name>Service Vehicle Generation</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://dev79418.service-now.com/api/now/table/u_service_vehicles</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 22:04:09</sys_created_on>
+        <sys_id>9e762b6397403110abfdbf27f053af96</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Service Vehicle Generation</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>sys_rest_message_9e762b6397403110abfdbf27f053af96</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:00:09</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</claim_owner_scope>
+        <claim_timestamp>18b697ef25e0000001</claim_timestamp>
+        <metadata_update_name>sys_rest_message_9e762b6397403110abfdbf27f053af96</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Demo Application</previous_claim_name>
+        <previous_claim_scope>b7a3ae2697c63110abfdbf27f053afac</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 01:00:09</sys_created_on>
+        <sys_id>78d76a2297ca3110abfdbf27f053afce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:00:09</sys_updated_on>
+    </sys_claim>
+</record_update>

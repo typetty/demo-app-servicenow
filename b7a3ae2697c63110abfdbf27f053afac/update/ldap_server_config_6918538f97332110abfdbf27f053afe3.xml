@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_config">
+    <ldap_server_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <authenticate>true</authenticate>
+        <connect_timeout>10</connect_timeout>
+        <dn>Administrator@pettydomain.com</dn>
+        <dn_field/>
+        <listen_interval>5</listen_interval>
+        <listener>true</listener>
+        <map/>
+        <mid_server/>
+        <name>PettyLDAP</name>
+        <paging>true</paging>
+        <password>﷞﷟﷒a968978f97332110abfdbf27f053af5c﷬﷔1﷬﷭UsOuw8ncv6jRVgiorFyC-g==p-W0dubrpR8NMSqu4em0rU--kLL82ntguS6nrZDd1Ng=﷮﷯</password>
+        <rdn>dc=pettydomain,dc=com</rdn>
+        <read_timeout>30</read_timeout>
+        <server_url>ldap://ec2-3-138-169-42.us-east-2.compute.amazonaws.com:389/</server_url>
+        <ssl>false</ssl>
+        <sys_class_name>ldap_server_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 21:27:26</sys_created_on>
+        <sys_id>6918538f97332110abfdbf27f053afe3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>PettyLDAP</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>ldap_server_config_6918538f97332110abfdbf27f053afe3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:08:51</sys_updated_on>
+        <system_id>app143157.ytz3.service-now.com:dev79418005</system_id>
+        <vendor>active_directory</vendor>
+    </ldap_server_config>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</claim_owner_scope>
+        <claim_timestamp>18b6986ec770000001</claim_timestamp>
+        <metadata_update_name>ldap_server_config_6918538f97332110abfdbf27f053afe3</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Demo Application</previous_claim_name>
+        <previous_claim_scope>b7a3ae2697c63110abfdbf27f053afac</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 01:08:51</sys_created_on>
+        <sys_id>a0d9aaa297ca3110abfdbf27f053af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:08:51</sys_updated_on>
+    </sys_claim>
+</record_update>

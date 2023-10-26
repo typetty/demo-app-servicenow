@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Copy of Forrest Service Vehicle XML TM</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>u_forest_service_vehicle_import_set</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-03 18:03:28</sys_created_on>
+        <sys_id>6133463197332110abfdbf27f053af3c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Forrest Service Vehicle XML TM</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>sys_transform_map_6133463197332110abfdbf27f053af3c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:00:08</sys_updated_on>
+        <target_table>u_service_vehicle</target_table>
+    </sys_transform_map>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</claim_owner_scope>
+        <claim_timestamp>18b697ef0680000001</claim_timestamp>
+        <metadata_update_name>sys_transform_map_6133463197332110abfdbf27f053af3c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Demo Application</previous_claim_name>
+        <previous_claim_scope>b7a3ae2697c63110abfdbf27f053afac</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 01:00:08</sys_created_on>
+        <sys_id>74d76a2297ca3110abfdbf27f053afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:00:08</sys_updated_on>
+    </sys_claim>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</application>
+        <file_path/>
+        <instance_id>4777d12fdba4b7009df22f17d496194a</instance_id>
+        <instance_name>dev79418</instance_name>
+        <name>sys_transform_map_6133463197332110abfdbf27f053af3c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Copy of Forrest Service Vehicle XML TM&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_forest_service_vehicle_import_set&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-03 18:03:28&lt;/sys_created_on&gt;&lt;sys_id&gt;6133463197332110abfdbf27f053af3c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of Forrest Service Vehicle XML TM&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo Application"&gt;b7a3ae2697c63110abfdbf27f053afac&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_6133463197332110abfdbf27f053af3c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-26 01:00:08&lt;/sys_updated_on&gt;&lt;target_table&gt;u_service_vehicle&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;sys_claim action="INSERT_OR_UPDATE"&gt;&lt;claim_owner_scope display_value="Demo Application"&gt;b7a3ae2697c63110abfdbf27f053afac&lt;/claim_owner_scope&gt;&lt;claim_timestamp&gt;18b697ef0680000001&lt;/claim_timestamp&gt;&lt;metadata_update_name&gt;sys_transform_map_6133463197332110abfdbf27f053af3c&lt;/metadata_update_name&gt;&lt;previous_claim_app_version&gt;1.0.0&lt;/previous_claim_app_version&gt;&lt;previous_claim_name&gt;Demo Application&lt;/previous_claim_name&gt;&lt;previous_claim_scope&gt;b7a3ae2697c63110abfdbf27f053afac&lt;/previous_claim_scope&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-26 01:00:08&lt;/sys_created_on&gt;&lt;sys_id&gt;74d76a2297ca3110abfdbf27f053afa0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-26 01:00:08&lt;/sys_updated_on&gt;&lt;/sys_claim&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1990361650</payload_hash>
+        <record_name>Copy of Forrest Service Vehicle XML TM</record_name>
+        <reverted_from/>
+        <source>efbcc88724b021108c8bc6863d3fada3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 01:00:08</sys_created_on>
+        <sys_id>f8d76a2297ca3110abfdbf27f053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b697ef0860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:00:08</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>30d76a22feca31104b380468619e25a2</update_guid>
+        <update_guid_history>30d76a22feca31104b380468619e25a2:1990361650,a13346310333211018dc21d8a35f253e:-1649803451</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 01:02:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>03dbca6aa1464af8809d33a857c46a10</sys_id>
+        <sys_metadata>6133463197332110abfdbf27f053af3c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Forrest Service Vehicle XML TM</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_scope_delete display_value="">6b6b2f129ccc4620842c054069433100</sys_scope_delete>
+        <sys_update_name>sys_transform_map_6133463197332110abfdbf27f053af3c</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_6133463197332110abfdbf27f053af3c">f8d76a2297ca3110abfdbf27f053afa2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:02:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

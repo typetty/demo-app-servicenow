@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{"name":"${carName}","u_operator":"Martin Carley","u_year":"2013"}</content>
+        <function_name>Create</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Service Vehicle Generation [ Create ]</qualified_name>
+        <rest_endpoint>https://dev79418.service-now.com/api/now/table/u_service_vehicle</rest_endpoint>
+        <rest_message display_value="Service Vehicle Generation">9e762b6397403110abfdbf27f053af96</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 22:10:18</sys_created_on>
+        <sys_id>bef667e397403110abfdbf27f053af71</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Create</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>sys_rest_message_fn_bef667e397403110abfdbf27f053af71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:00:09</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</claim_owner_scope>
+        <claim_timestamp>18b697ef1e10000001</claim_timestamp>
+        <metadata_update_name>sys_rest_message_fn_bef667e397403110abfdbf27f053af71</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Demo Application</previous_claim_name>
+        <previous_claim_scope>b7a3ae2697c63110abfdbf27f053afac</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 01:00:09</sys_created_on>
+        <sys_id>70d76a2297ca3110abfdbf27f053afba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:00:09</sys_updated_on>
+    </sys_claim>
+</record_update>

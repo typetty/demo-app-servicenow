@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>This role is just to demo and test acl's</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>acl_demo_role</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix/>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 01:45:49</sys_created_on>
+        <sys_id>0032beea97ca3110abfdbf27f053af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>acl_demo_role</sys_name>
+        <sys_package display_value="Demo Application" source="b7a3ae2697c63110abfdbf27f053afac">b7a3ae2697c63110abfdbf27f053afac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>sys_user_role_0032beea97ca3110abfdbf27f053af83</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:45:49</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</application>
+        <file_path/>
+        <instance_id>4777d12fdba4b7009df22f17d496194a</instance_id>
+        <instance_name>dev79418</instance_name>
+        <name>sys_user_role_0032beea97ca3110abfdbf27f053af83</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>This role is just to demo and test acl's</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>acl_demo_role</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-26 01:45:49</sys_created_on><sys_id>0032beea97ca3110abfdbf27f053af83</sys_id><sys_mod_count>0</sys_mod_count><sys_name>acl_demo_role</sys_name><sys_package display_value="Demo Application" source="b7a3ae2697c63110abfdbf27f053afac">b7a3ae2697c63110abfdbf27f053afac</sys_package><sys_policy/><sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope><sys_update_name>sys_user_role_0032beea97ca3110abfdbf27f053af83</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-26 01:45:49</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>1314567772</payload_hash>
+        <record_name>acl_demo_role</record_name>
+        <reverted_from/>
+        <source>efbcc88724b021108c8bc6863d3fada3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 01:45:49</sys_created_on>
+        <sys_id>3142feea97ca3110abfdbf27f053afb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b69a8c2cb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 01:45:49</sys_updated_on>
+        <type>Role</type>
+        <update_guid>7542feeae3ca3110044f9acc8c1b9cb0</update_guid>
+        <update_guid_history>7542feeae3ca3110044f9acc8c1b9cb0:1314567772</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="acl_demo_role">a2b5f662970e3110abfdbf27f053afc1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 02:00:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>0e125f23efed4c2c94d47fd4ead75410</sys_id>
+        <sys_metadata>0032beea97ca3110abfdbf27f053af83</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>acl_demo_role</sys_name>
+        <sys_package display_value="Demo Application" source="b7a3ae2697c63110abfdbf27f053afac">b7a3ae2697c63110abfdbf27f053afac</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_scope_delete display_value="">6b6b2f129ccc4620842c054069433100</sys_scope_delete>
+        <sys_update_name>sys_user_role_0032beea97ca3110abfdbf27f053af83</sys_update_name>
+        <sys_update_version display_value="sys_user_role_0032beea97ca3110abfdbf27f053af83">3142feea97ca3110abfdbf27f053afb1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 02:00:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

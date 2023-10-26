@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Set the "source" value for Custom Logger 2</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>com.snc.customlogger2.source</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-29 12:59:39</sys_created_on>
+        <sys_id>bc86d0a097332110abfdbf27f053af46</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>com.snc.customlogger2.source</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</sys_scope>
+        <sys_update_name>sys_properties_bc86d0a097332110abfdbf27f053af46</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 00:53:01</sys_updated_on>
+        <type>string</type>
+        <value>Custom Logger 2</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=bc86d0a097332110abfdbf27f053af46"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Demo Application">b7a3ae2697c63110abfdbf27f053afac</claim_owner_scope>
+        <claim_timestamp>18b69786d240000001</claim_timestamp>
+        <metadata_update_name>sys_properties_bc86d0a097332110abfdbf27f053af46</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Demo Application</previous_claim_name>
+        <previous_claim_scope>b7a3ae2697c63110abfdbf27f053afac</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 00:53:01</sys_created_on>
+        <sys_id>a436eeae978a3110abfdbf27f053af63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 00:53:01</sys_updated_on>
+    </sys_claim>
+</record_update>

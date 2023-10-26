@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="2b6030d897372110abfdbf27f053af6e" extends="cmdb_ci" label="Service Vehicle" max_length="40" name="u_service_vehicle" type="collection">
+        <element label="Comments" max_length="4000" name="u_comments" type="journal_input"/>
+        <element label="Operator" max_length="40" name="u_operator" reference="sys_user" type="reference"/>
+        <element label="Year" max_length="4" name="u_year" type="string"/>
+        <element label="Correlation Display" max_length="40" name="u_correlation_display" type="string"/>
+        <element label="Location" max_length="32" name="u_location" reference="cmn_location" type="reference"/>
+        <element label="Make" max_length="40" name="u_make" type="string"/>
+        <element label="Model" max_length="40" name="u_model" type="string"/>
+    </element>
+</database>

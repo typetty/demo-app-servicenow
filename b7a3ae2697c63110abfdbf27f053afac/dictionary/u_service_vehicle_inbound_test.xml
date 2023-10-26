@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="46c2169397003110abfdbf27f053afc3" extends="sys_import_set_row" label="Service Vehicle Inbound Test" max_length="40" name="u_service_vehicle_inbound_test" type="collection"/>
+</database>
